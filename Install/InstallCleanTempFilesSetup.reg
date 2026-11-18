@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\CleanTempFiles]
+@="Clean Temp Files (.bak, .org, .tmp)"
+"Icon"="powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CleanTempFiles\command]
+@="powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\Scripts\\CleanTempFiles.ps1\""

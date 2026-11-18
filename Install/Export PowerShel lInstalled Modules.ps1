@@ -1,0 +1,1 @@
+﻿Get-InstalledModule | Select-Object Name, Version | Export-Csv "C:\Scripts\Reinstall\powershell-installed-modules.csv" -NoTypeInformation

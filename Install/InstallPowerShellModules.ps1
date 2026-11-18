@@ -1,0 +1,1 @@
+﻿Import-Csv "$HOME\Documents\PowerShell\installed-modules.csv" | ForEach-Object { Install-Module $_.Name -Force }
